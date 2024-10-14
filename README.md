@@ -35,8 +35,6 @@
 <strong>To Send a File:</strong>
 <pre><code>cargo run -- --mode send --file /path/to/file.txt
 </code></pre>
-<pre><code>ngrok tcp 8000
-</code></pre>
 
 <strong>To Receive a File:</strong>
 <pre><code>cargo run -- --mode receive --address Your_Sender_Ip_Address:8000
